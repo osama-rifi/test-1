@@ -1,0 +1,48 @@
+#button-1 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: wheat;
+  width: fit-content;
+}
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  width: fit-content;
+}
+#button-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: wheat;
+  width: fit-content;
+}
+#button-1 a {
+  position: relative;
+  transition: all 0.35s ease-Out;
+}
+#slide {
+  width: 10%;
+  height: 10%;
+  left: -20px;
+  background: #d11525;
+  position: absolute;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+
+#button-1:hover #slide {
+  left: 0;
+}
+
+#button-1:hover a {
+  color: #dadada;
+}
+#button-2:hover a {
+  color: #e4e4e4;
+}
+#button-3:hover a {
+  color: #f1f1f1;
+}
